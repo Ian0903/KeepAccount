@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragment.ChartPageFragment">
+
+    <TextView
+        android:id="@+id/main_date_select_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textColor="@color/textGrey"
+        android:textStyle="bold"
+        android:text="2019年3日 ∨" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/select_pie_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="饼图"
+            android:textColor="@color/textWhite"
+            android:layout_margin="15dp"
+            android:background="@color/textGrey"
+            />
+
+        <Button
+            android:id="@+id/select_column_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="直方图"
+            android:background="@color/textGrey"
+            android:textColor="@color/textWhite"
+            />
+
+    </LinearLayout>
+
+    <lecho.lib.hellocharts.view.PieChartView
+        android:id="@+id/pie_chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+    <lecho.lib.hellocharts.view.ColumnChartView
+        android:id="@+id/column_chart_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/list_icon_iv"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/ic_menu_send"/>
+
+    <TextView
+        android:id="@+id/list_tag_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/textBlack"
+        android:text="交通"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/list_icon_iv"
+        android:layout_alignTop="@+id/list_icon_iv" />
+
+    <TextView
+        android:id="@+id/list_time_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2019-10-12"
+        android:layout_toRightOf="@+id/list_icon_iv"
+        android:layout_toEndOf="@+id/list_icon_iv"
+        android:layout_below="@+id/list_tag_tv"
+        android:layout_marginBottom="10dp"
+        android:textSize="12sp"
+        android:textColor="@color/textGrey"/>
+
+    <TextView
+        android:id="@+id/list_money_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+68.00"
+        android:textColor="@color/textBlack"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>

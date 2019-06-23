@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundColor"
+    tools:context=".ui.fragment.MinePageFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/textWhite"
+        >
+
+        <TextView
+            android:id="@+id/mine_remind_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="记账提醒"
+            android:textSize="16sp"
+            android:textColor="@color/textBlack"/>
+
+        <Switch
+            android:id="@+id/mine_remind_sw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Base.Widget.AppCompat.CompoundButton.Switch"
+            android:layout_alignTop="@+id/mine_remind_tv"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"/>
+
+        <TextView
+            android:id="@+id/mine_remind_time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提醒时间"
+            android:layout_below="@+id/mine_remind_tv"
+            android:textSize="16sp"
+            android:layout_margin="15dp"
+            android:textColor="@color/textBlack"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/mine_remind_time_set_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/mine_remind_time_tv"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="21:00"
+            android:textColor="@color/textBlack"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:textSize="16sp"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mine_version_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="15dp"
+        android:textColor="@color/textBlack"
+        android:layout_marginTop="15dp"
+        android:text="新版检测"
+        android:background="@color/textWhite"
+        />
+
+
+</LinearLayout>

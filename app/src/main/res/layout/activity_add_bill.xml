@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.activity.AddBillActivity">
+
+    <include layout="@layout/app_bar"/>
+
+    <com.shizhefei.view.indicator.ScrollIndicatorView
+        android:id="@+id/type_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:fillViewport="false"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/type_viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

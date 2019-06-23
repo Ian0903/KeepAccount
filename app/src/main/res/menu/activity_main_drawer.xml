@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/homepage"
+            android:title="主页" />
+        <item
+            android:id="@+id/nav_book"
+            android:icon="@mipmap/book"
+            android:title="帐本" />
+        <item android:id="@+id/nav_chart"
+            android:icon="@mipmap/chart"
+            android:title="图表统计"/>
+        <item
+            android:id="@+id/nav_mine"
+            android:icon="@mipmap/setting"
+            android:title="我的" />
+
+    </group>
+</menu>

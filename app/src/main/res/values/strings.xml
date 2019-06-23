@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">极简记账</string>
+    <string name="income">收入</string>
+    <string name="outcome">支出</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="calendar">日历</string>
+    <string name="search">搜索</string>
+    <string name="empty_data">暂无数据</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="money">金额：</string>
+    <string name="remark">备注：</string>
+    <string name="record_time">记录时间：</string>
+    <string name="finish">完成</string>
+    <string name="cur_bills">当日账单</string>
+
+</resources>
